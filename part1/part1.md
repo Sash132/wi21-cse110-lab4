@@ -50,7 +50,9 @@
 16. The `==` operator will perform comparisons and will also perform type conversions if it is necessary to be done before a comparison can be made. The `===` will also perform comparisons but unlike the `==` operator, it will not perform any type conversions unless they are explicitly stated.
 
 17. From the code snippet provided, the phrase "How are you?" will be logged to the console. This is because the first if statement will attempt to compare `2` with `true` using an `==` operation. The `==` operation will convert `true` to `1` at which point with will check if `2` is equal to `1`. Since it is not, the comparison will return false and therefore, the if statement condition is false. Then, the next else if statement is checked. The condition of this statement is `2`. Since it is in an if statement condition, it will be converted to a Boolean value and since `2` is not equal to `0`, it will be converted to `true`. Thus, this if statement will be entered the console will log the phrase "How are you?". Since the remainder of the code is an else statement, nothing else will be logged.
-18.
-19.
+
+18. The answer to this question can be found in the file `part1-question18.js`.
+
+19. If the function provided is called with as `modifyArray([1,2,3], doSomething)`, then `2` will be added to every value of the array and then each value will be multiplied by 2. After both of these operations are complete, the values will be pushed to the newArr which is which what will be returned at the end of the function call. This newArr array will be `[6,8,10]` because each value of the inputted array will be summed with 2 and then doubled.
 20.
 21.

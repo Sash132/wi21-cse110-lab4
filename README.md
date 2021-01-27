@@ -1,2 +1,2 @@
-Name: Sashwath Gollamudi
-Email: sgollamu@ucsd.edu
+- Name: Sashwath Gollamudi
+- Email: sgollamu@ucsd.edu

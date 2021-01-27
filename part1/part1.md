@@ -53,6 +53,8 @@
 
 18. The answer to this question can be found in the file `part1-question18.js`.
 
-19. If the function provided is called with as `modifyArray([1,2,3], doSomething)`, then `2` will be added to every value of the array and then each value will be multiplied by 2. After both of these operations are complete, the values will be pushed to the newArr which is which what will be returned at the end of the function call. This newArr array will be `[6,8,10]` because each value of the inputted array will be summed with 2 and then doubled.
-20.
-21.
+19. If the function provided is called with as `modifyArray([1,2,3], doSomething)`, then `2` will be added to every value of the array as it will enter the doSomething function. Then, once it exits the doSomething function, each value will be multiplied by 2. After both of these operations are complete, the values will be pushed to the newArr which is which what will be returned at the end of the function call. This newArr array will be `[6,8,10]` because each value of the inputted array will be summed with 2 and then doubled.
+
+20. The answer to this question can be found in the file `part1-question20.js`.
+
+21. The order in which the numbers are logged are as follows: `1`, `4`, `3`, and `2`. The first number that is logged to the console is `1`. This is because it is the first line of code and isn't part of a setTimeout function. The second number that is logged is `4`. This is because it also is not part of a setTimeout function; even though `3`'s timeout delay is 0 milliseconds, the act of using the setTimeout function with a `0` or omission of the parameter indicates that it belongs to the next event cycle. Since `4` is part of the same event cycle as `1` because they both are not in setTimeout functions, `4` will be the number that is logged to the console after `1`. The next number that is logged to the console is `3` because it has the shortest delay out of the numbers that are in a setTimeout function. The last number that is logged to the console is `2` because it has a delay of 1000 milliseconds, the longest out of the four numbers being logged in this code snippet.

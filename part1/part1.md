@@ -23,13 +23,29 @@
 12. Assuming assignments from previous questions were successful, if we call `discountPrices([100,200,300],.5)`, the function will use a for loop to iterate through the elements of `prices` which are 100, 200, and 300. Then, it will take each of these elements and multiply it by 0.5 in the for loop. Next, it will take each of these newly calculated values and round them to two decimal places. Although, when it attempts to assign these values to `finalPrices`, we will be presented with an error because we cannot reassign the value of a variable decalred with `const`. Therefore, the function will not return anything.
 
 13. 
-  - i. `student.name`
-  - ii. `student['Grad Year']`
-  - iii. `student.greeting()`
-  - iv. `student['Favorite Teacher'].name`
-  - v. `student.courseLoad[0]`
+  - A. `student.name`
+  - B. `student['Grad Year']`
+  - C. `student.greeting()`
+  - D. `student['Favorite Teacher'].name`
+  - E. `student.courseLoad[0]`
+
 14.
+  - A. `32` since the `+` operation will concatenate `2` to the already existing string `'3'`.
+  - B. `1` since the `-` operation will convert the existing string `'3'` to a number and then subtract `2` from it.
+  - C. `3` since the `+` operation will convert `null` to `0` and then add it to the already existing number `3`.
+  - D. `3null` since the `+` operation will convert `null` to a string and then concatenate it to the already existing string `'3'`.
+  - E. `4` since the `+` operation will convert `true` to `1` and then add it to the already existing number `3`.
+  - F. `0` since the `+` operation will convert both `false` and `null to `0` and then add them together.
+  - G. `3undefined` since the `+` operation will convert `undefined` to a string and then concatenate it to the already existing string `"3"`.
+  - H. `Nan` since the `-` operation will convert the existing string `"3"` to a number and `undefined` to `NaN`, leading the subtraction operation to result in `NaN`.
+  
 15.
+  - A. `true` since the '>' operation converts the existing string `'2'` to a number which will then check to verify if 2 is greater than 1.
+  - B. `false` since the comparison of strings through lexicographic order would indicate that `'2'` is "larger" than `'12'`.
+  - C. `true` since the `==` operation converts the existing string `'2'` to a number which will then check to verify if 2 is equal to 2.
+  - D. `false` since the `===` operation will compare both values without performing any type conversions (leading to a comparison of a number to a string).
+  - E. `false` since the `==` operation converts `true` to `1` which will then check to verify if 1 is equal to 2.
+  - F. `true` since the `===` operation will compare both values without performing any type conversions unless explicitly stated. Since there is an explicit Boolean type conversion for `2`, it will be converted to `true` to then verify if `true` is indeed equal to `true.
 16.
 17.
 18.

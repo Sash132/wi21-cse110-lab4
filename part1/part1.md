@@ -37,7 +37,7 @@
   - E. `4` since the `+` operation will convert `true` to `1` and then add it to the already existing number `3`.
   - F. `0` since the `+` operation will convert both `false` and `null to `0` and then add them together.
   - G. `3undefined` since the `+` operation will convert `undefined` to a string and then concatenate it to the already existing string `"3"`.
-  - H. `Nan` since the `-` operation will convert the existing string `"3"` to a number and `undefined` to `NaN`, leading the subtraction operation to result in `NaN`.
+  - H. `NaN` since the `-` operation will convert the existing string `"3"` to a number and `undefined` to `NaN`, leading the subtraction operation to result in `NaN`.
   
 15.
   - A. `true` since the '>' operation converts the existing string `'2'` to a number which will then check to verify if 2 is greater than 1.
@@ -47,7 +47,7 @@
   - E. `false` since the `==` operation converts `true` to `1` which will then check to verify if 1 is equal to 2.
   - F. `true` since the `===` operation will compare both values without performing any type conversions unless explicitly stated. Since there is an explicit Boolean type conversion for `2`, it will be converted to `true` to then verify if `true` is indeed equal to `true.
   
-16. The `==` operator will perform comparisons and will also perform type conversions if it is necessary to be done before a comparison can be made. The `===` will also perform comparisons but unlike the `==` operator, it will not perform any type conversions unless they are explicitly stated.
+16. The `==` operator will perform equality comparisons and will also perform type conversions if it is necessary to be done before a comparison can be made. The `===` will also perform equality comparisons but unlike the `==` operator, it will not perform any type conversions unless they are explicitly stated.
 
 17. From the code snippet provided, the phrase "How are you?" will be logged to the console. This is because the first if statement will attempt to compare `2` with `true` using an `==` operation. The `==` operation will convert `true` to `1` at which point with will check if `2` is equal to `1`. Since it is not, the comparison will return false and therefore, the if statement condition is false. Then, the next else if statement is checked. The condition of this statement is `2`. Since it is in an if statement condition, it will be converted to a Boolean value and since `2` is not equal to `0`, it will be converted to `true`. Thus, this if statement will be entered the console will log the phrase "How are you?". Since the remainder of the code is an else statement, nothing else will be logged.
 

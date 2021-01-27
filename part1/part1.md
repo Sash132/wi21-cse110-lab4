@@ -23,11 +23,11 @@
 12. Assuming assignments from previous questions were successful, if we call `discountPrices([100,200,300],.5)`, the function will use a for loop to iterate through the elements of `prices` which are 100, 200, and 300. Then, it will take each of these elements and multiply it by 0.5 in the for loop. Next, it will take each of these newly calculated values and round them to two decimal places. Although, when it attempts to assign these values to `finalPrices`, we will be presented with an error because we cannot reassign the value of a variable decalred with `const`. Therefore, the function will not return anything.
 
 13. 
-  i. `student.name`
-  ii. `student['Grad Year']`
-  iii. `student.greeting()`
-  iv. `student['Favorite Teacher'].name`
-  v. `student.courseLoad[0]`
+  - i. `student.name`
+  - ii. `student['Grad Year']`
+  - iii. `student.greeting()`
+  - iv. `student['Favorite Teacher'].name`
+  - v. `student.courseLoad[0]`
 14.
 15.
 16.

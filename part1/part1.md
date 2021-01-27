@@ -10,15 +10,24 @@
 
 6. On line 12, `discountedPrice` will not be logged to the console and you will instead be presented with an error. This is because `discountedPrice` was declared with `let` and variables declared with `let` are only visible inside of the code block in which they are declared. So, since `discountedPrice` was declared within a for loop, that variable will not be visible to line 12 because it is not in the code block.
 
-7. On line 13, `finalPrice` will be logged to the console and will therefore log `150` when using the args from Question 4. This is because the variable is declared at the beginning of the function outside of any block and is also logged within that same function. Therefore, the variable is inside the scope of the function the entire time.
+7. On line 13, `finalPrice` will be logged to the console and will therefore log `150` when using the args from Question 8. This is because the variable is declared at the beginning of the function outside of any block and is also logged within that same function. Therefore, the variable is inside the scope of the function the entire time.
 
-8. If we call `discountPrices([100,200,300],.5)`, the function will use a for loop to iterate through the elements of `prices` which are 100, 200, and 300. Then, it will take each of these elements and multiply it by 0.5 in the for loop. Next, it will take each of these newly calculated values and round them to two decimal places. Then finally, each of these elements are pushed to a variable `discounted` which will then be returned containing `[50, 100, 150]`.
+8. Assuming assignments from previous questions were successful, if we call `discountPrices([100,200,300],.5)`, the function will use a for loop to iterate through the elements of `prices` which are 100, 200, and 300. Then, it will take each of these elements and multiply it by 0.5 in the for loop. Next, it will take each of these newly calculated values and round them to two decimal places. Then finally, each of these elements are pushed to a variable `discounted` which will then be returned containing `[50, 100, 150]`.
 
-9. 
-10.
-11.
-12.
-13.
+9. On line 11, `i` will not be logged to the console and you will instead be presented with an error. This is because `i` was declared with `const` and variables declared with `const` are only visible inside of the code block in which they are declared. So, since `i` was declared within a for loop, that variable will not be visible to line 11 because it is not in the code block.
+
+10. On line 12, `discountedPrice` will not be logged to the console and you will instead be presented with an error. This is because `discountedPrice` was declared with `const` and variables declared with `const` are only visible inside of the code block in which they are declared. So, since `discountedPrice` was declared within a for loop, that variable will not be visible to line 12 because it is not in the code block.
+
+11. On line 13, `finalPrice` will not be logged to the console and you will instead be presented with an error. This is because `finalPrice` was declared with `const` and variables declared with `const` cannot have their values changed after declaration. Since the function attempts to change the value of `finalPrice` in the for loop, you will be presented with an error.
+
+12. Assuming assignments from previous questions were successful, if we call `discountPrices([100,200,300],.5)`, the function will use a for loop to iterate through the elements of `prices` which are 100, 200, and 300. Then, it will take each of these elements and multiply it by 0.5 in the for loop. Next, it will take each of these newly calculated values and round them to two decimal places. Although, when it attempts to assign these values to `finalPrices`, we will be presented with an error because we cannot reassign the value of a variable decalred with `const`. Therefore, the function will not return anything.
+
+13. 
+  i. `student.name`
+  ii. `student['Grad Year']`
+  iii. `student.greeting()`
+  iv. `student['Favorite Teacher'].name`
+  v. `student.courseLoad[0]`
 14.
 15.
 16.

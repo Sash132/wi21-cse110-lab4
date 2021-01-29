@@ -1,4 +1,4 @@
-1. On line 11, `i` will be logged to the console and will therefore log `4` when using the args from Question 4. This is because `i` was declared with `var` and variables declared with `var` have no block scope so even though `i` was declared within a for loop, that variable will continue to exist in the function even when the for loop has finished.
+1. On line 11, `i` will be logged to the console and will therefore log `3` when using the args from Question 4. This is because `i` was declared with `var` and variables declared with `var` have no block scope so even though `i` was declared within a for loop, that variable will continue to exist in the function even when the for loop has finished.
 
 2. On line 12, `discountedPrice` will be logged to the console and will therefore log `150` when using the args from Question 4. This is because `discountedPrice` was declared with `var` and variables declared with `var` have no block scope so even though `discountedPrice` was declared within a for loop, that variable will continue to exist in the function even when the for loop has finished.
 

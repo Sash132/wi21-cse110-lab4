@@ -12,4 +12,4 @@
 6. The server that the response came from was: **Apache**.
 7. The file was last modified on the following date: **Tue, 26 Jan 2021 22:14:13 GMT**
 8. The Content-Type of the file is: **application/json**
-9. The method that made the request inside the initiating file was: **FetchData**.
+9. The method that made the request inside the initiating file was: **fetchData**.

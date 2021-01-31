@@ -1,3 +1,7 @@
-let d = new Date();
-let time = d.toLocaleTimeString();
-setInterval(console.log, 1000, time);
+function outputTime() {  
+  let d = new Date();
+  let time = d.toLocaleTimeString();
+  console.log(time);
+}
+
+setInterval(outputTime, 1000);
